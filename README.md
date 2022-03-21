@@ -3,6 +3,7 @@ Fruit Ninja in Assembly 8086 [2020 Project]
 
 ## Project description
 The project was created in Assembly 8086. It's the final project for high-school Assembly class [early 2020].
+Head to wiki for tips, further project description and screenshots.
 
 ![menub](https://user-images.githubusercontent.com/45829637/159379810-2b45f941-4f4f-4083-bef4-20b30d7912f4.jpg)
 
