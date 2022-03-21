@@ -18,7 +18,7 @@ The program created using  ```tasm``` and  ```tlink``` while debugged using ```t
 The ```root``` directory is a directory contains all the program files.
 Make sure you mount ```root``` directory using ```mount c: <root>```, then navigate there using ```c:```
 
-Change CPU cycles to max using ```cycles=MAX```
+Change CPU cycles to max using ```cycles=MAX``` ; You may change it to your preferred number.
 
 ### Run
 Simply run using the executable name: ```fNinja```
