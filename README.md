@@ -2,49 +2,44 @@
 Fruit Ninja in Assembly 8086 [2020 Project]
 
 ## Project description
-The project was created in 2020 in Assembly 8086. It's the final project for high-school Assembly class.
+The project was created in Assembly 8086. It's the final project for high-school Assembly class [early 2020].
+
+![menub](https://user-images.githubusercontent.com/45829637/159379810-2b45f941-4f4f-4083-bef4-20b30d7912f4.jpg)
 
 
 ## How to run
 
 ### Prepare your environment
 To run the program you will need 8086 simulator such as [DOSBox](https://dosbox.com)
-You'll need to compile the program before running it.
 
-The program is tested using  ```tasm``` and  ```tlink```
+The program created using  ```tasm``` and  ```tlink``` while debugged using ```td``` (turbo debugger)
 
 #### The following description is based on tests using ```DOSBox```
-
-Copy the program to the compiler & linker root folder referred as ```root``` directory.
-Make sure you either  ```root``` directory using ```mount c: <root>```, then navigate there using ```c:```
+The ```root``` directory is a directory contains all the program files.
+Make sure you mount ```root``` directory using ```mount c: <root>```, then navigate there using ```c:```
 
 Change CPU cycles to max using ```cycles=MAX```
 
 ### Run
-* Compile using: 
+Simply run using the executable name: ```fNinja```
 
-```tasm fNinja.asm```
+### Debug
 
-* Then link using:
+Copy the program to the compiler & linker to the ```root``` directory.
 
-```tlink fNinja.obj```
+#### Compile for running
+* Compile using:      ```tasm fNinja.asm```
 
-* Run using: 
+* Then link using:      ```tlink fNinja.obj```
 
-```fNinja```
+* Run using:      ```fNinja```
 
-### Run & Debug
-* Compile using:
+#### Compile for debugging
+* Compile using:      ```tasm /zi fNinja.asm```
 
-```tasm /zi fNinja.asm```
+* Then link using:      ```tlink /v fNinja.obj```
 
-* Then link using:
-
-```tlink /v fNinja.obj```
-
-* Debug using debugger such as Turbo Debugger (```td```): 
-
-```td fNinja```
+* Debug using debugger such as turbo debugger (```td```):       ```td fNinja```
 
 
 ### Reset the game score
